@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+.DS_Store
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing / Puppeteer artifacts
+coverage/
+*.log
+screenshots/
+
+# Local storage
+*.sqlite
+*.db
+
+# System generated files
+*.tgz
+*.gz
+*.zip

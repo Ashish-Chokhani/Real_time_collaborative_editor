@@ -1,0 +1,61 @@
+{
+  "name": "collaborative_text_editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "codemirror": "^5.60.0",
+    "html2pdf.js": "^0.10.3",
+    "postcss-safe-parser": "^7.0.1",
+    "puppeteer": "^24.6.1",
+    "quill": "^1.3.7",
+    "quill-cursors": "^3.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "turndown": "^7.2.0",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.1",
+    "y-codemirror": "^2.1.0",
+    "y-indexeddb": "^9.0.12",
+    "y-quill": "^0.1.5",
+    "y-webrtc": "^10.3.0",
+    "yjs": "^13.6.24"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0"
+  },
+  "main": "index.js",
+  "author": "Ashish_Chokhani",
+  "license": "ISC",
+  "description": ""
+}
